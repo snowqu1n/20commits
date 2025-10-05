@@ -1,0 +1,4 @@
+echo "Updated on $(date)" >> activity.txt
+git add activity.txt
+git commit -m "Add recent update for activity"
+git push
